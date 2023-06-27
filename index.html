@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./index.css">
+   <title>Exercicio Módulo 7</title>
+</head>
+<body>
+   <form id="formulario">
+      <h1>Verificador Numérico</h1>
+      <div class="container-numbers">
+         <div class="container-campo-a">
+            <label for="campo-a">Campo A:</label>
+            <input type="number" id="campo-a" name="campo-a">
+         </div>
+         <div class="container-campo-b">
+            <label for="campo-b">Campo B:</label>
+            <input type="number" id="campo-b" name="campo-b">
+         </div>
+      </div>
+      <button type="submit">Enviar</button>
+      <div class="message-form">
+         <p class="success-message">Formulário válido: Campo B é maior do que A!</p>
+         <p class="error-message">Formulário inválido: Campo B deve ser maior que o Campo A.</p>
+      </div>
+   </form>
+   <script src="./index.js"></script>
+</body>
+</html>
